@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const postBank = require("./postBank");
-const renderPostList = require("./views/postLists");
+const renderPostList = require("./views/postList");
 const renderPostDetails = require("./views/postDetails");
 
 app.use(morgan('dev'));
